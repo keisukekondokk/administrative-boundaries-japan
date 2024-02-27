@@ -2,7 +2,7 @@
 
 ## Shiny Web App
 
-This web app visualizes historical administrative boundaries in Japan. Kondo (2019, 2021) provides the municipality converter.  
+This web app visualizes historical administrative boundaries in Japan, which is the supplementary material of Kondo (2019, 2023).  
 URL: https://keisuke-kondo.shinyapps.io/administrative-boundaries-japan/
 
 [![Administrative Boundaries in Japan](www/administrative-boundaries-japan.png "Administrative Boundaries in Japan")](https://keisuke-kondo.shinyapps.io/administrative-boundaries-japan/)
@@ -11,7 +11,7 @@ URL: https://keisuke-kondo.shinyapps.io/administrative-boundaries-japan/
 Kondo, K. (2019) Municipality-level panel data and municipal mergers in Japan, RIETI Technical Paper No.19-T-001 (in Japanese).  
 URL: https://www.rieti.go.jp/en/publications/summary/23020001.html
 
-Kondo, K. (2021) Municipality-level panel data and municipal mergers in Japan, RIETI Technical Paper No.23-T-001.  
+Kondo, K. (2023) Municipality-level panel data and municipal mergers in Japan, RIETI Technical Paper No.23-T-001.  
 URL: https://www.rieti.go.jp/en/publications/summary/23020001.html
 
 
