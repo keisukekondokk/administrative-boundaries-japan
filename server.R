@@ -27,7 +27,7 @@ server <- function(input, output, session) {
         style = styleUrl,
         setView = FALSE
       ) %>%
-      setView(139.76712479708573, 35.68127103162747, zoom = 8)
+      setView(137.50061532587793, 35.48748008188884, zoom = 8)
   })
 
   #LeafletProxy
@@ -36,7 +36,7 @@ server <- function(input, output, session) {
   #Switch Leaflet
   observeEvent(input$buttonMapUpdate, {
     
-    #
+    #withProgress
     withProgress(message = "Loading the map...", value = 0, {
       
       #Load Shapefiles
@@ -96,7 +96,6 @@ server <- function(input, output, session) {
         #withProgress
         incProgress(0.2, detail = "Please wait until the map is drawn.")
       }
-      #withProgress
 
       #Load Shapefiles
       sfMuni <- st_transform(read_sf(paste0("data/shp_city/shp_poly_", year, "_pref00_city_seirei.shp"), crs = 4326)) %>%
